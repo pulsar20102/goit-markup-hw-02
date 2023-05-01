@@ -76,11 +76,12 @@ letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--color-primary);
     }
 
 .contact:hover,
 .contact:focus {
-    color: var(--color-brand);
+    color: var(--color-brand-changes);
 }
 
 .hero-section,

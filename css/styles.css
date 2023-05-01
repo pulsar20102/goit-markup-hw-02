@@ -1,8 +1,9 @@
 :root {
-    --color-secondary: #2E2F42;
+    --color-secondary: #2e2f42;
     --color-primary: #434455;
     --color-white: #FFFFFF;
     --color-brand: #4D5AE5;
+    --color-brand-changes: #404bbf;
     --color-brand-light: #F4F4FD;
     --color-background-white: #FFFFFF;
     --color-background-dark: #2E2F42;
@@ -61,7 +62,7 @@ letter-spacing: 0.03em;
 
 .item-page:hover,
 .item-page:focus {
-  color: var(--color-brand);
+  color: var(--color-brand-changes);
   text-decoration:underline;  
 }
 
@@ -91,7 +92,7 @@ letter-spacing: 0.03em;
     color: var(--color-white);
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.08;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
    }
@@ -143,6 +144,10 @@ letter-spacing: 0.03em;
 
 .our-team {
     background-color: var(--color-background-light);
+}
+
+.workers {
+    background-color: var(--color-background-white);
 }
 
 .name-worker {

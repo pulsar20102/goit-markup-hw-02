@@ -70,17 +70,21 @@ letter-spacing: 0.03em;
     color: var(--color-brand);
 }
 
+.address {
+    font-style: normal; 
+}
+
 .contact {
-    font-style: normal;
+    color: var(--color-primary);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-primary);
+    
     }
 
-.contact:hover,
-.contact:focus {
+.contact:focus,
+.contact:hover {
     color: var(--color-brand-changes);
 }
 

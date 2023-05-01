@@ -14,10 +14,6 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--color-primary);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
     background-color: var(--color-background-white);
 }
 
@@ -35,9 +31,9 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
+text-transform: uppercase;
 color: var(--color-brand);
 letter-spacing: 0.03em;
-text-transform: uppercase;
 }
 
 .logo-black {
@@ -60,6 +56,7 @@ text-transform: uppercase;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .item-page:hover,
@@ -77,6 +74,7 @@ text-transform: uppercase;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     }
 
 .contact:hover,
@@ -95,11 +93,13 @@ text-transform: uppercase;
     font-size: 56px;
     line-height: 1.08;
     text-align: center;
+    letter-spacing: 0.02em;
    }
 
    .hero-button {
     color: var(--color-white);
     font-family: 'Roboto',sans-serif;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     background-color:var(--color-background-brand);
@@ -107,6 +107,7 @@ text-transform: uppercase;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
+
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--color-background-change);
@@ -117,17 +118,16 @@ text-transform: uppercase;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color:var(--color-secondary)
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
 }
 
 .features-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-}
-
-.our-team {
-    background-color: var(--color-background-light);
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
 }
 
 .work-title,
@@ -136,13 +136,21 @@ text-transform: uppercase;
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--color-secondary);
+}
+
+.our-team {
+    background-color: var(--color-background-light);
 }
 
 .name-worker {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--color-secondary);
 }
 
@@ -150,6 +158,9 @@ text-transform: uppercase;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
 }
 
 .footer-text {
@@ -157,6 +168,7 @@ text-transform: uppercase;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .button-filter {
@@ -177,14 +189,17 @@ text-transform: uppercase;
 }
 
 .application {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--color-secondary);
 }
 
 .kind-work {
     font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
 }
